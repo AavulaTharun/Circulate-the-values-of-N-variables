@@ -15,7 +15,25 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
+~~~
+#Program to circulate N values.
+#Developed by: A. Tharun 
+#RegisterNumber:21003406
+
+def circulate():
+
+    L=[10,20,30,40,50,60]
+   
+    n=(int(input()))
+   
+    print("After circulating the values are:", L[n:] +L[:n])
+
+~~~
+
+
 
 ## Output:
+![output](outout.png)
 
 ## Result:
+the program is excuted
